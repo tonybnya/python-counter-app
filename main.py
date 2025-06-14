@@ -10,8 +10,7 @@ app, rt = fast_app(
         Theme.blue.headers(),
         # favicon link
         Link(rel="icon", type="image/x-icon", href="/static/favicon.ico"),
-    ),
-    default_hdrs=False
+    )
 )
 
 counter = 0
