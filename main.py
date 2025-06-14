@@ -1,13 +1,12 @@
 from fastcore.all import method
-from fasthtml.common import Div, Img, Link, Span, Titled, serve
+from fasthtml.common import Div, Img, Link, Span, Title, serve
 from monsterui.all import (H1, H2, Button, ButtonT, Card, Container,
                            ContainerT, Form, Input, Theme, fast_app)
 
 app, rt = fast_app(
-    # title="Counter App - FastHTML",
     hdrs=(
         # page title
-        Titled("Counter App - FastHTML"),
+        Title("Counter App - FastHTML"),
         Theme.blue.headers(),
         # favicon link
         Link(rel="icon", type="image/x-icon", href="/static/favicon.ico"),
